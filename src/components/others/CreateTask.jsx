@@ -62,7 +62,7 @@ function CreateTask(props) {
             }}
             className="w-[500px] mb-5 px-1 py-1 bg-transparent border-[2px] border-[#919191] rounded outline-none"
             type="text"
-            placeholder="Make a UI desing"
+            placeholder="Make a UI design"
           />
         </div>
 
@@ -79,7 +79,7 @@ function CreateTask(props) {
         </div>
 
         <div>
-          <h3>Asing to</h3>
+          <h3>Assign to</h3>
           <input
             value={asingTo}
             onChange={(e) => {
@@ -87,7 +87,7 @@ function CreateTask(props) {
             }}
             className="w-[500px] mb-5 px-1 py-1 bg-transparent border-[2px] border-[#919191] rounded outline-none"
             type="text"
-            placeholder="employee name"
+            placeholder="Employee name"
           />
         </div>
 
@@ -100,7 +100,7 @@ function CreateTask(props) {
             }}
             className="w-[500px] mb-5 px-1 py-1 bg-transparent border-[2px] border-[#919191] rounded outline-none"
             type="text"
-            placeholder="Desing\ Dev, etc"
+            placeholder="Design\ Development, etc"
           />
         </div>
       </div>

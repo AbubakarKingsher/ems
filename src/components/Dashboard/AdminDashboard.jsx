@@ -8,7 +8,7 @@ function AdminDashboard(props) {
   setLocalStorage();
   return (
     <div className="w-full h-full p-5 pb-0">
-      <Header2 />
+      <Header2  changeUser={props.changeUser} data={props.data} />
       <CreateTask />
       <AllTask />
     </div>
