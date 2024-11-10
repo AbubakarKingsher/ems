@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://abubakarkingsher.github.io/Employee-Management-System",
+  "homepage": "https://abubakarkingsher.github.io/ems",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
