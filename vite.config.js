@@ -5,12 +5,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/ems/',
   build: {
-    outDir: 'dist',
-    emptyOutDir: true,
-    rollupOptions: {
-      output: {
-        manualChunks: undefined
-      }
-    }
+    outDir: 'dist'
   }
 })
