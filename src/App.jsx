@@ -3,7 +3,7 @@ import Login from "./components/Auth/Login";
 import EmployeDashboard from "./components/Dashboard/EmployeDashboard";
 import AdminDashboard from "./components/Dashboard/AdminDashboard";
 import { AuthContext } from "./context/AuthProvider";
-import { HashRouter } from 'react-router-dom'
+
 
 function App() {
   const [user, setUser] = useState(null);
@@ -42,14 +42,15 @@ function App() {
   };
 
   return (
-    <HashRouter>
+    <>
       {!user ? <Login handleLogin={handleLogin} /> : ""}
       {user == "admin" ? (
         <AdminDashboard changeUser={setUser} />
       ) : user == "employee" ? (
         <EmployeDashboard changeUser={setUser} data={loggedInUserData} />
       ) : null}
-    </HashRouter>
+    </>
+    
   );
 }
 
